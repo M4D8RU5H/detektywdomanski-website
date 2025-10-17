@@ -2,10 +2,6 @@
   padding: 200px 30px;
 }
 
-.service-section:nth-child(even) {
-  background: var(--gray);
-}
-
 .service-content {
   max-width: 1200px;
   margin: 0 auto;
@@ -21,7 +17,6 @@
 .service-section .service-icon {
   width: 80px;
   height: 80px;
-  background: var(--salmon);
   border-radius: 15px;
   display: flex;
   align-items: center;
@@ -31,10 +26,33 @@
   flex-shrink: 0;
 }
 
-.service-header h1 {
+.business-service-section .service-icon {
+  background: var(--avocado-light);
+}
+
+.private-service-section .service-icon {
+  background: var(--salmon-light);
+}
+
+.collectors-service-section .service-icon {
+  background: var(--gold-light);
+}
+
+.service-section .service-header h1 {
   margin: 0;
-  color: var(--avocado);
   font-size: clamp(28px, 4vw, 38px);
+}
+
+.business-service-section .service-header h1 {
+  color: var(--avocado);
+}
+
+.private-service-section .service-header h1 {
+  color: var(--salmon);
+}
+
+.collectors-service-section .service-header h1 {
+  color: var(--gold);
 }
 
 .service-description {
@@ -43,17 +61,39 @@
   margin-bottom: 30px;
 }
 
-.service-benefits {
+.service-section .service-benefits {
   background: var(--white);
   padding: 35px;
   border-radius: 15px;
-  border-left: 5px solid var(--salmon);
   margin-top: 30px;
 }
 
-.service-benefits h3 {
-  color: var(--avocado);
+.business-service-section .service-benefits {
+  border-left: 5px solid var(--avocado-light);
+}
+
+.private-service-section .service-benefits {
+  border-left: 5px solid var(--salmon-light);
+}
+
+.collectors-service-section .service-benefits {
+  border-left: 5px solid var(--gold-light);
+}
+
+.service-section .service-benefits h3 {
   margin-bottom: 20px;
+}
+
+.business-service-section .service-benefits h3 {
+  color: var(--avocado);
+}
+
+.private-service-section .service-benefits h3 {
+  color: var(--salmon);
+}
+
+.collectors-service-section .service-benefits h3 {
+  color: var(--gold);
 }
 
 .service-benefits ul {
@@ -68,11 +108,22 @@
   font-size: 16px;
 }
 
-.service-benefits ul li::before {
+.service-section .service-benefits ul li::before {
   content: '✓';
   position: absolute;
   left: 0;
-  color: var(--salmon);
   font-weight: bold;
   font-size: 22px;
+}
+
+.business-service-section .service-benefits ul li::before {
+  color: var(--avocado-light);
+}
+
+.private-service-section .service-benefits ul li::before {
+  color: var(--salmon-light);
+}
+
+.collectors-service-section .service-benefits ul li::before {
+  color: var(--gold-light);
 }

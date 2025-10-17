@@ -51,5 +51,13 @@
   font-size: 1.8rem; /* większa ikona */
   padding: 10px 15px; /* powiększenie obszaru kliknięcia */
   border-radius: 8px; /* zaokrąglone rogi */
-  z-index: 1500;
+  
+}
+
+.btn-nav-close {
+  background-color: var(--avocado-light);
+  color: #ffffff;
+  border: none;
+  font-size: 1.8rem;
+  padding: 20px 30px;
 }

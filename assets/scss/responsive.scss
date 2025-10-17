@@ -23,7 +23,11 @@
   }
 }
 
-@media (max-width: 768px) { 
+@media (max-width: 768px) {   
+  .main-nav {
+    position: relative;
+  }
+
   /* --- Hamburger Menu --- */
   .nav-links {
     position: fixed;
@@ -34,25 +38,38 @@
     background-color: var(--avocado);
     flex-direction: column;
     gap: var(--gutter-sm);
-    padding: var(--spacing-sm);
     align-items: flex-start;
     transition: right 0.5s ease;
     z-index: 1500;
   }
 
   .nav-links li {
+    padding: 0 30px;
     text-align: left;
-    display: block;
+    display: flex;
     width: 100%;
   }
 
   .nav-links li a {
     font-size: var(--font-size-md);
     color: #fff;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  /* Right arrow icons */
+  .main-nav ul li a i {
+    display: inline;    
   }
 
   .btn-nav-hamburger {
     display: block;
+  }
+
+  .nav-close {
+    display: flex;
+    justify-content: flex-end;
   }
 
   .nav-links.active {
@@ -89,12 +106,7 @@
 
   .hero {
     padding-top: 0;
-  }
-}
-
-@media (max-width: 638px) {
-  .hero {
-    padding-top: 80px;
+    align-items: flex-start;
   }
 }
 
@@ -118,6 +130,6 @@
   --h1-sm: clamp(0.8rem, 5vw, 2.2rem);
   --font-size-md: clamp(1.25rem, 6vw, 2.2rem);
   --font-size-sm: clamp(1rem, 6vw, 1.75rem);
-  --spacing-sm: 80px 25px;
+  --spacing-sm: 20px 25px;
 }
 

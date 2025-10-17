@@ -9,12 +9,18 @@
         </a>
 
         <ul class="nav-links">
-            <li><a href="{{ "/" | relURL }}">Start</a></li>
-            <li><a href="{{ "/biznes" | relURL }}">Dla Firm</a></li>
-            <li><a href="{{ "/prywatne" | relURL }}">Dla Osób Prywatnych</a></li>
-            <li><a href="{{ "/kolekcjonerzy" | relURL }}">Dla Kolekcjonerów</a></li>
-            <li><a href="{{ "/blog" | relURL }}">Blog</a></li>
-            <li><a href="{{ "/opinie" | relURL }}">Opinie</a></li>
+            <div class="nav-close">
+                <button class="btn-nav-close">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+
+            <li><a href="{{ "/" | relURL }}"><span>Start</span><i class="fas fa-chevron-right"></i></a></li>
+            <li><a href="{{ "/biznes" | relURL }}"><span>Dla Firm</span><i class="fas fa-chevron-right"></i></a></li>
+            <li><a href="{{ "/prywatne" | relURL }}"><span>Dla Osób Prywatnych</span><i class="fas fa-chevron-right"></i></a></li>
+            <li><a href="{{ "/kolekcjonerzy" | relURL }}"><span>Dla Kolekcjonerów</span><i class="fas fa-chevron-right"></i></a></li>
+            <li><a href="{{ "/blog" | relURL }}"><span>Blog</span><i class="fas fa-chevron-right"></i></a></li>
+            <li><a href="{{ "/opinie" | relURL }}"><span>Opinie</span><i class="fas fa-chevron-right"></i></a></li>
             <li><a href="{{ "/kontakt" | relURL }}" class="nav-cta">Kontakt</a></li>
         </ul>
 
@@ -23,6 +29,3 @@
         </button>
     </div>
 </div>
-
-<!-- Overlay -->
-<div class="nav-overlay"></div>

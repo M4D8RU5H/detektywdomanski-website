@@ -1,4 +1,6 @@
 const btnHamburger = document.querySelector(".btn-nav-hamburger");
+const btnClose = document.querySelector(".btn-nav-close");
+
 const mainNav = document.querySelector(".main-nav");
 const navLinks = document.querySelector(".nav-links");
 const logo = document.querySelector(".logo");
@@ -11,3 +13,4 @@ function toggleMenu() {
 }
 
 btnHamburger.addEventListener("click", toggleMenu);
+btnClose.addEventListener("click", toggleMenu);

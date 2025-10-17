@@ -1,0 +1,38 @@
+.why-us {
+  background: var(--salmon);
+  padding: 100px 30px;
+  color: var(--white);
+}
+
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 35px;
+  margin-top: 50px;
+}
+
+.feature-item {
+  text-align: center;
+  padding: 35px;
+  background: rgba(255,255,255,0.15);
+  border-radius: 15px;
+  backdrop-filter: blur(10px);
+  transition: all 0.3s ease;
+  border: 1px solid rgba(255,255,255,0.2);
+}
+
+.feature-item:hover {
+  transform: translateY(-10px);
+  background: rgba(255,255,255,0.25);
+}
+
+.feature-icon {
+  font-size: 56px;
+  margin-bottom: 20px;
+  color: var(--white);
+}
+
+.feature-item h3,
+.feature-item p {
+  color: var(--white);
+}

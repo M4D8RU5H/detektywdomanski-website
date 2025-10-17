@@ -1,0 +1,78 @@
+.service-section {
+  padding: 200px 30px;
+}
+
+.service-section:nth-child(even) {
+  background: var(--gray);
+}
+
+.service-content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.service-header {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  margin-bottom: 30px;
+}
+
+.service-section .service-icon {
+  width: 80px;
+  height: 80px;
+  background: var(--salmon);
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+  color: var(--white);
+  flex-shrink: 0;
+}
+
+.service-header h1 {
+  margin: 0;
+  color: var(--avocado);
+  font-size: clamp(28px, 4vw, 38px);
+}
+
+.service-description {
+  font-size: 17px;
+  line-height: 1.9;
+  margin-bottom: 30px;
+}
+
+.service-benefits {
+  background: var(--white);
+  padding: 35px;
+  border-radius: 15px;
+  border-left: 5px solid var(--salmon);
+  margin-top: 30px;
+}
+
+.service-benefits h3 {
+  color: var(--avocado);
+  margin-bottom: 20px;
+}
+
+.service-benefits ul {
+  list-style: none;
+  padding: 0;
+}
+
+.service-benefits ul li {
+  padding: 12px 0;
+  padding-left: 35px;
+  position: relative;
+  font-size: 16px;
+}
+
+.service-benefits ul li::before {
+  content: '✓';
+  position: absolute;
+  left: 0;
+  color: var(--salmon);
+  font-weight: bold;
+  font-size: 22px;
+}

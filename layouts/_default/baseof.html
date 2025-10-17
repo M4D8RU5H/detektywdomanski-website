@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+
+<head>
+    {{ partial "meta.html" . }}
+    <title>{{ block "title" . }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="{{ " favicon.png" | relURL }}" />
+
+    <!-- CSS -->
+    {{ $styles := resources.Get "scss/main.scss" | css.Sass | resources.Minify }}
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="{{ $styles.RelPermalink }}">
+
+    {{ block "head" . }}{{ end }}
+</head>
+
+<body>
+    <!-- Header -->
+     <nav>
+        {{ partial "main-navbar.html" . }}
+
+        {{ if eq .Section "biznes" }}
+            {{ partial "business-navbar.html" . }}
+        {{ end }}
+
+        {{ if eq .Section "prywatne" }}
+            {{ partial "private-navbar.html" . }}
+        {{ end }}
+
+        {{ if eq .Section "kolekcjonerzy" }}
+            {{ partial "collectors-navbar.html" . }}
+        {{ end }}
+    </nav>
+
+    <!-- Main content -->
+    <main class="main-content">
+        {{ block "main" . }}{{ end }}
+    </main>
+
+    <!-- Footer -->
+    {{ partial "footer.html" . }}
+
+    <!-- JS -->
+    {{ $main := resources.Get "js/main.js" }}
+    {{ $menu := resources.Get "js/responsive-navbar.js" }}
+    {{ $bundle := resources.Concat "js/bundle.js" (slice $main $menu) | minify | fingerprint }}
+    <script src="{{ $bundle.RelPermalink }}" integrity="{{ $bundle.Data.Integrity }}"></script>
+
+</body>
+
+</html>

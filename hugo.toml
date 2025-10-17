@@ -1,0 +1,4 @@
+baseURL = 'https://detektywdomanski.pl/'
+languageCode = 'pl'
+title = 'Detektyw Domański'
+uglyURLs = false

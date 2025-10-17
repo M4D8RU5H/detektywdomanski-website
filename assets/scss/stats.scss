@@ -1,0 +1,36 @@
+.stats-section {
+  background: var(--avocado);
+  padding: 80px 30px;
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.stat-item {
+  text-align: center;
+  padding: 40px;
+  background: rgba(255,255,255,0.1);
+  border-radius: 15px;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255,255,255,0.2);
+}
+
+.stat-number {
+  font-family: 'Playfair Display', serif;
+  font-size: 56px;
+  color: var(--white);
+  display: block;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+
+.stat-item p {
+  color: var(--white);
+  font-size: 18px;
+  font-weight: 400;
+}

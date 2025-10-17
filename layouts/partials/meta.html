@@ -3,6 +3,13 @@
 <!-- Basic SEO -->
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>
+  {{ if .IsHome }}
+    {{ .Title }}
+  {{ else }}
+    {{ .Title }} - DETEKTYW DOMAŃSKI
+  {{ end }}
+</title>
 
 {{ if .IsHome }}
 <meta name="description" content="{{ .Site.Params.description }}">
@@ -17,24 +24,19 @@
 <meta http-equiv="content-language" content="{{ .Site.LanguageCode | default "pl" }}">
 <meta name="theme-color" content="#0d6efd">
 
-<!-- Keywords (optional) -->
-{{ with .Params.keywords }}
-<meta name="keywords" content="{{ delimit . " , " }}">
-{{ end }}
-
 <!-- ========================= OPEN GRAPH ========================= -->
 <meta property="og:title" content="{{ .Title }}">
 <meta property="og:description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
 <meta property="og:url" content="{{ .Permalink }}">
 <meta property="og:site_name" content="{{ .Site.Title }}">
 <meta property="og:type" content="{{ if .IsHome }}website{{ else }}article{{ end }}">
-<meta property="og:image" content="{{ with .Params.ogImage }}{{ . }}{{ else }}{{ "images/default-og.jpg" | absURL }}{{ end }}">
+<meta property="og:image" content="{{ with .Params.ogImage }}{{ . }}{{ else }}{{ "images/og/default-og.jpg" | absURL }}{{ end }}">
 
 <!-- ========================= TWITTER CARDS ========================= -->
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="{{ .Title }}">
 <meta name="twitter:description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
-<meta name="twitter:image" content="{{ with .Params.ogImage }}{{ . }}{{ else }}{{ "images/default-og.jpg" | absURL }}{{ end }}">
+<meta name="twitter:image" content="{{ with .Params.ogImage }}{{ . }}{{ else }}{{ "images/og/default-og.jpg" | absURL }}{{ end }}">
 {{ with .Site.Params.twitterHandle }}
 <meta name="twitter:site" content="{{ . }}">
 {{ end }}

@@ -1,58 +1,43 @@
 /* Media Queries */
 @media (max-width: 1200px) {
   .main-nav ul {
-    gap: 25px;
+    gap: var(--gutter-md);
   }
 
   .services-grid,
   .features-grid,
   .stats-grid,
   .footer-content {
-    gap: 25px;
+    gap: var(--gutter-md);
+  }
+
+  .main-nav .container {
+    flex-direction: column;
+    gap: var(--gutter-sm);
   }
 }
 
 @media (max-width: 992px) {
-  .main-nav .container {
-    flex-direction: column;
-    gap: 20px;
-  }
-
   .hero h1 {
-    font-size: clamp(28px, 6vw, 38px);
+    font-size: var(--h1-md);
   }
 }
 
-@media (max-width: 768px) {
-  .btn-nav-hamburger {
-    display: flex;
-  }
-
+@media (max-width: 768px) { 
+  /* --- Hamburger Menu --- */
   .nav-links {
     position: fixed;
     top: 0;
-    right: -100%; /* poza ekranem */
+    right: -100%; /* behind the screen */
     width: 60%;
     height: 100%;
     background-color: var(--avocado);
     flex-direction: column;
-    gap: 30px;
-    padding: 100px 20px; /* od góry zostaje miejsce na hamburger */
+    gap: var(--gutter-sm);
+    padding: var(--spacing-sm);
     align-items: flex-start;
     transition: right 0.5s ease;
     z-index: 1500;
-  }
-
-  .main-nav.active {
-    background-color: var(--avocado-dark);
-  }
-
-  .logo.active {
-    filter: brightness(0.5);
-  }
-
-  .nav-links.active {
-    right: 0; /* menu wjeżdża z prawej */
   }
 
   .nav-links li {
@@ -62,15 +47,19 @@
   }
 
   .nav-links li a {
-    font-size: 22px;
+    font-size: var(--font-size-md);
     color: #fff;
   }
 
-  body.menu-open {
-    overflow: hidden;
+  .btn-nav-hamburger {
+    display: block;
   }
 
-  /* opcjonalnie przyciemnienie reszty strony */
+  .nav-links.active {
+    right: 0; /* the menu slides in form the right */
+  }
+
+  /* --- Overlay --- */
   body.menu-open::after {
     content: "";
     position: fixed;
@@ -81,15 +70,54 @@
     background-color: rgba(0,0,0,0.5);
     z-index: 1400;
   }
+
+  .main-nav.active {
+    background-color: var(--avocado-dark); /* darkens the nav bar */
+  }
+
+  .logo.active {
+    filter: brightness(0.5); /* darkens the logo */
+  }
+
+  body.menu-open {
+    overflow: hidden; /* stops scrolling */
+  }
+
+  .hero h1 {
+    font-size: var(--h1-md);
+  }
+
+  .hero {
+    padding-top: 0;
+  }
+}
+
+@media (max-width: 638px) {
+  .hero {
+    padding-top: 80px;
+  }
 }
 
 @media (max-width: 576px) {
   .hero h1 {
-    font-size: clamp(10px, 2vw, 12px);
+    font-size: var(--h1-sm);
   }
 
   .btn {
+    padding: var(--spacing-sm);
+    font-size: var(--font-size-sm);
     padding: 12px 25px;
     font-size: 14px;
   }
 }
+
+:root {
+  --gutter-md: 25px;
+  --gutter-sm: 20px;
+  --h1-md: clamp(1.5rem, 5vw, 3.2rem);
+  --h1-sm: clamp(0.8rem, 5vw, 2.2rem);
+  --font-size-md: clamp(1.25rem, 6vw, 2.2rem);
+  --font-size-sm: clamp(1rem, 6vw, 1.75rem);
+  --spacing-sm: 80px 25px;
+}
+

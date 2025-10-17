@@ -1,10 +1,8 @@
 ---
 title: "Audyt Bezpieczeństwa i Przeciwdziałanie Kradzieżom"
 icon: "fas fa-clipboard-check"
-description: "DETEKTYW DOMAŃSKI PL Sp. z o.o. - Ekskluzywna agencja detektywistyczna w Warszawie. Profesjonalne usługi detektywistyczne dla firm i osób prywatnych. 20 lat doświadczenia, 100% dyskrecji."
-keywords: ["detektyw Warszawa", "agencja detektywistyczna", "prywatny detektyw", "usługi detektywistyczne", "Detektyw Domański", "sprawy małżeńskie", "weryfikacja kontrahentów"]
+description: "Audyt bezpieczeństwa – analiza procedur, systemów i zachowań pracowników, wykrywanie luk, ochrona przed kradzieżą, sabotażem i cyberatakami. Profesjonalny raport i rekomendacje dla zarządu."
 author: "DETEKTYW DOMAŃSKI PL Sp. z o.o."
-image: "/images/hero.jpg"
 
 benefits:
   - "Analiza procedur i systemów zabezpieczeń"

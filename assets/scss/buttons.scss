@@ -61,3 +61,23 @@
   font-size: 1.8rem;
   padding: 20px 30px;
 }
+
+.cta-section .btn-primary {
+    background: var(--salmon);
+    color: var(--white);
+}
+
+.cta-section .btn-primary:hover {
+    background: var(--salmon-light);
+    transform: translateY(-3px);
+}
+
+.cta-section .btn-secondary {
+    background: var(--white);
+    color: var(--black);
+}
+
+.cta-section .btn-secondary:hover {
+    background: var(--gray);
+    transform: translateY(-3px);
+}

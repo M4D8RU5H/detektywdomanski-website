@@ -1,4 +1,12 @@
-baseURL = 'https://detektywdomanski.pl/'
+# Uncomment for production
+# baseURL = 'https://detektywdomanski.pl/' Uncomment for production
+#
+
 languageCode = 'pl'
 title = 'Detektyw Domański'
 uglyURLs = false
+
+# Delete for production
+baseURL = "/"
+relativeURLs = true
+#

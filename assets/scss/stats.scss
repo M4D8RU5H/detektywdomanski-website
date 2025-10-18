@@ -18,13 +18,21 @@
   border-radius: 15px;
   backdrop-filter: blur(10px);
   border: 1px solid rgba(255,255,255,0.2);
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 1s ease, transform 1s ease;
 }
 
-.stat-number {
+.stat-item.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.stat-number,
+.stat-item span {
   font-family: 'Playfair Display', serif;
   font-size: 56px;
   color: var(--white);
-  display: block;
   margin-bottom: 10px;
   font-weight: 700;
 }
@@ -34,3 +42,4 @@
   font-size: 18px;
   font-weight: 400;
 }
+

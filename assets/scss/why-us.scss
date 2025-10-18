@@ -1,7 +1,26 @@
 .why-us {
-  background: var(--salmon);
   padding: 100px 30px;
   color: var(--white);
+  position: relative;
+  background: url('https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=1600&h=900&fit=crop'); /* ← zmień ścieżkę */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  overflow: hidden;
+}
+
+.why-us::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: var(--salmon);
+  opacity: 0.66;
+  z-index: 0;
+}
+
+.why-us > * {
+  position: relative;
+  z-index: 1;
 }
 
 .features-grid {

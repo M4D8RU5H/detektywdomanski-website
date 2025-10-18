@@ -15,12 +15,30 @@
                 </button>
             </div>
 
-            <li><a href="{{ "/" | relURL }}"><span>Start</span><i class="fas fa-chevron-right"></i></a></li>
-            <li><a href="{{ "/biznes" | relURL }}"><span>Dla Firm</span><i class="fas fa-chevron-right"></i></a></li>
-            <li><a href="{{ "/prywatne" | relURL }}"><span>Dla Osób Prywatnych</span><i class="fas fa-chevron-right"></i></a></li>
-            <li><a href="{{ "/kolekcjonerzy" | relURL }}"><span>Dla Kolekcjonerów</span><i class="fas fa-chevron-right"></i></a></li>
-            <li><a href="{{ "/blog" | relURL }}"><span>Blog</span><i class="fas fa-chevron-right"></i></a></li>
-            <li><a href="{{ "/opinie" | relURL }}"><span>Opinie</span><i class="fas fa-chevron-right"></i></a></li>
+            <li><a href="{{ "/" | relURL }}" class="{{ if eq .RelPermalink "/" }}selected{{ end }}">
+                <span>Start</span>
+                <i class="fas fa-chevron-right"></i>
+            </a></li>
+            <li><a href="{{ "/biznes" | relURL }}" class="{{ if eq .RelPermalink "/biznes/" }}selected{{ end }}">
+                <span>Dla Firm</span>
+                <i class="fas fa-chevron-right"></i>
+            </a></li>
+            <li><a href="{{ "/prywatne" | relURL }}" class="{{ if eq .RelPermalink "/prywatne/" }}selected{{ end }}">
+                <span>Dla Osób Prywatnych</span>
+                <i class="fas fa-chevron-right"></i>
+            </a></li>
+            <li><a href="{{ "/kolekcjonerzy" | relURL }}" class="{{ if eq .RelPermalink "/kolekcjonerzy/" }}selected{{ end }}">
+                <span>Dla Kolekcjonerów</span>
+                <i class="fas fa-chevron-right"></i>
+            </a></li>
+            <li><a href="{{ "/blog" | relURL }}" class="{{ if eq .RelPermalink "/blog/" }}selected{{ end }}">
+                <span>Blog</span>
+                <i class="fas fa-chevron-right"></i>
+            </a></li>
+            <li><a href="{{ "/opinie" | relURL }}" class="{{ if eq .RelPermalink "/opinie/" }}selected{{ end }}">
+                <span>Opinie</span>
+                <i class="fas fa-chevron-right"></i>
+            </a></li>
             <li><a href="{{ "/kontakt" | relURL }}" class="nav-cta">Kontakt</a></li>
         </ul>
 

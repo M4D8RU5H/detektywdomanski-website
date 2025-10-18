@@ -3,10 +3,14 @@
   text-align: center;
 }
 
+
+
 .business-page-header,
 .private-page-header,
 .collectors-page-header {
   padding: 210px 30px 65px;
+  position: relative;
+  overflow: hidden;
 }
 
 .blog-page-header,
@@ -15,38 +19,62 @@
   padding: 130px 30px 45px;
 }
 
-.business-page-header,
 .blog-page-header,
 .ctn-page-header {
   background: linear-gradient(135deg, var(--avocado) 0%, var(--avocado-light) 100%);
 }
 
-.private-page-header,
 .opinions-page-header {
   background: linear-gradient(135deg, var(--salmon) 0%, var(--salmon-light) 100%);
 }
 
-.collectors-page-header {
-  position: relative;
-  background: url('https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=1600&h=900&fit=crop'); /* ← zmień ścieżkę */
+.business-page-header {
+  background: url('https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=1600&h=900&fit=crop'); 
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-  overflow: hidden;
 }
 
+.private-page-header {
+  background: url('https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=1600&h=900&fit=crop'); 
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.collectors-page-header {
+  background: url('https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=1600&h=900&fit=crop'); 
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.business-page-header::before,
+.private-page-header::before,
 .collectors-page-header::before {
   content: "";
   position: absolute;
   inset: 0;
-  background: linear-gradient(135deg, #2C1810 0%, #3D2415 100%);
-  opacity: 0.7;
+  opacity: 0.66;
   z-index: 0;
 }
 
+.business-page-header::before {
+  background: linear-gradient(135deg, var(--avocado) 0%, var(--avocado-light) 100%);
+}
+
+.private-page-header::before {
+  background: linear-gradient(135deg, var(--salmon) 0%, var(--salmon-light) 100%);
+}
+
+.collectors-page-header::before {
+  background: linear-gradient(135deg, #2C1810 0%, #3D2415 100%);
+}
+
+.business-page-header > *,
+.private-page-header > *,
 .collectors-page-header > * {
   position: relative;
-  z-index: 1;
 }
 
 .page-header h1 {

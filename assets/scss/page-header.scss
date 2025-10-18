@@ -1,22 +1,14 @@
 .page-header {
   color: var(--white);
   text-align: center;
+  padding: 160px 30px 65px;
 }
-
-
 
 .business-page-header,
 .private-page-header,
 .collectors-page-header {
-  padding: 210px 30px 65px;
   position: relative;
   overflow: hidden;
-}
-
-.blog-page-header,
-.opinions-page-header,
-.ctn-page-header {
-  padding: 130px 30px 45px;
 }
 
 .blog-page-header,

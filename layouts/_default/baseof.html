@@ -19,18 +19,6 @@
     <!-- Header -->
      <nav>
         {{ partial "main-navbar.html" . }}
-
-        {{ if eq .Section "biznes" }}
-            {{ partial "business-navbar.html" . }}
-        {{ end }}
-
-        {{ if eq .Section "prywatne" }}
-            {{ partial "private-navbar.html" . }}
-        {{ end }}
-
-        {{ if eq .Section "kolekcjonerzy" }}
-            {{ partial "collectors-navbar.html" . }}
-        {{ end }}
     </nav>
 
     <!-- Main content -->
@@ -45,8 +33,8 @@
     {{ $main := resources.Get "js/main.js" }}
     {{ $menu := resources.Get "js/responsive-navbar.js" }}
     {{ $stats := resources.Get "js/stats-counter.js" }}
-    {{ $paralax := resources.Get "js/background-paralax.js" }}
-    {{ $bundle := resources.Concat "js/bundle.js" (slice $main $menu $stats) | minify | fingerprint }}
+    {{ $ctaForm := resources.Get "js/cta-form-validation.js" }}
+    {{ $bundle := resources.Concat "js/bundle.js" (slice $main $menu $stats $ctaForm) | minify | fingerprint }}
     <script src="{{ $bundle.RelPermalink }}" integrity="{{ $bundle.Data.Integrity }}"></script>
 
 </body>

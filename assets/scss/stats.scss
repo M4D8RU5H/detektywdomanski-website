@@ -1,3 +1,4 @@
+/* Stats Section */
 .stats-section {
   background: var(--avocado);
   padding: 80px 30px;
@@ -8,19 +9,26 @@
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 40px;
   max-width: 1200px;
-  margin: 0 auto;
+  margin: 30px auto;
 }
 
 .stat-item {
   text-align: center;
-  padding: 40px;
-  background: rgba(255,255,255,0.1);
+  padding: 35px;
   border-radius: 15px;
   backdrop-filter: blur(10px);
-  border: 1px solid rgba(255,255,255,0.2);
   opacity: 0;
   transform: translateY(30px);
   transition: opacity 1s ease, transform 1s ease;
+}
+
+.stats-section .stat-item {
+  background: rgba(255,255,255,0.1);
+  border: 1px solid rgba(255,255,255,0.2);
+}
+
+.opinion-stats-section .stat-item {
+  background: var(--gray);
 }
 
 .stat-item.visible {
@@ -32,14 +40,43 @@
 .stat-item span {
   font-family: 'Playfair Display', serif;
   font-size: 56px;
-  color: var(--white);
   margin-bottom: 10px;
   font-weight: 700;
 }
 
-.stat-item p {
+.stats-section .stat-number,
+.stats-section .stat-item span {
   color: var(--white);
+}
+
+.opinion-stats-section .stat-number,
+.opinion-stats-section .stat-item span {
+  color: var(--salmon);
+}
+
+.stat-item p {
   font-size: 18px;
   font-weight: 400;
 }
 
+.stats-section .stat-item p {
+  color: var(--white);
+}
+
+.opinion-stats-section .stat-item p {
+  color: var(--black);
+}
+
+.opinions-stats-section {
+    padding: 60px 30px;
+    background: var(--white);
+}
+
+.opinions-stats-section .stat-number {
+    font-family: 'Playfair Display', serif;
+    font-size: 48px;
+    color: var(--salmon);
+    display: block;
+    margin-bottom: 10px;
+    font-weight: 700;
+}

@@ -98,13 +98,9 @@
   transition: width 0.3s ease;
 }
 
-.main-nav ul li a:hover::after {
+.nav-links > li > a.selected::after {
   width: 100%;
-}
-
-.main-nav ul li a.selected::after {
-    width: 100%;
-    background: var(--salmon);
+  background: var(--salmon);
 }
 
 .nav-cta {
@@ -123,54 +119,61 @@
   display: none;
 }
 
-/* Sub Navigation */
-.sub-nav {
-  position: fixed;
-  top: 75px;
-  width: 100%;
-  background: var(--avocado);
-  border-top: 1px solid rgba(255,255,255,0.2);
-  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-  z-index: 999;
+/* --- Dropdown Menu --- */
+/* Kontener dropdown */
+.nav-links .has-dropdown {
+    position: relative;
 }
 
-.sub-nav .container {
-  max-width: 1400px;
-  margin: 0 auto;
-  padding: 30px 30px 15px;
+/* Ukryj submenu domyślnie */
+.nav-links .has-dropdown .dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: var(--avocado-light);
+    list-style: none;
+    padding: 10px 0;
+    min-width: 220px;
+    border-radius: 5px;
+    box-shadow: 0 3px 15px rgba(0,0,0,0.2);
+    z-index: 1000;
 }
 
-.sub-nav ul {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  list-style: none;
-  gap: 40px;
-  margin: 0;
-  padding: 0;
+/* Pojawienie się submenu po najechaniu */
+.nav-links .has-dropdown:hover .dropdown-menu {
+    display: block;
 }
 
-.sub-nav ul li a {
-  color: var(--white);
-  text-decoration: none;
-  font-size: 14px;
-  font-weight: 200;
-  position: relative;
-  transition: all 0.3s ease;
-  letter-spacing: 0.03em;
+/* Style linków w dropdown */
+.nav-links .dropdown-menu li a {
+    display: block;
+    padding: 8px 20px;
+    color: var(--white);
+    font-size: 14px;
+    text-decoration: none;
+    transition: background 0.3s;
 }
 
-.sub-nav ul li a::after {
-  content: '';
-  position: absolute;
-  bottom: -6px;
-  left: 0;
-  width: 0;
-  height: 2px;
-  background: var(--salmon);
-  transition: width 0.3s ease;
+.nav-links .dropdown-menu li a:hover {
+    background-color: var(--salmon);
+    color: var(--white);
 }
 
-.sub-nav ul li a:hover::after {
-  width: 100%;
+.nav-links .dropdown-menu li a.selected {
+    background-color: var(--salmon);
+    color: var(--white);
+}
+
+/* Jeśli chcesz ikonki strzałki w prawo przy dropdown */
+.nav-links .has-dropdown > a i {
+    margin-left: 5px;
+    font-size: 12px;
+    display: inline-block;
+    transition: transform 0.3s;
+}
+
+/* Obrót strzałki przy hover */
+.nav-links .has-dropdown:hover > a i {
+    transform: rotate(90deg);
 }

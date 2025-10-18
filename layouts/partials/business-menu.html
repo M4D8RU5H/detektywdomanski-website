@@ -1,4 +1,4 @@
-<ul class="dropdown-menu">
+<ul class="dropdown-menu {{ if strings.Contains .RelPermalink "/biznes/" }}selected{{ end }}">
     <li><a href="{{ "/biznes/weryfikacja-kontrahentow" | relURL }}" class="{{ if eq .RelPermalink "/biznes/weryfikacja-kontrahentow/" }}selected{{ end }}">
         <span>Weryfikacja Kontrahentów</span>
     </a></li>

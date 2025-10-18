@@ -102,3 +102,18 @@
     padding: 12px 30px;
     font-size: 14px;
 }
+
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 35px;
+    margin-top: 50px;
+    align-items: stretch; /* ważne! */
+}
+
+.service-card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+

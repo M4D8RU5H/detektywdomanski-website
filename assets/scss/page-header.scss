@@ -1,7 +1,7 @@
 .page-header {
   color: var(--white);
   text-align: center;
-  padding: 160px 30px 65px;
+  padding: 180px 30px 80px;
 }
 
 .business-page-header,
@@ -21,23 +21,17 @@
 }
 
 .business-page-header {
-  background: url('https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=1600&h=900&fit=crop'); 
-  background-size: cover;
-  background-position: center;
+  background: url('/images/bg/business-bg.jpg') center/cover;
   background-attachment: fixed;
 }
 
 .private-page-header {
-  background: url('https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=1600&h=900&fit=crop'); 
-  background-size: cover;
-  background-position: center;
+  background: url('/images/bg/personal-bg.jpg') center/cover; 
   background-attachment: fixed;
 }
 
 .collectors-page-header {
-  background: url('https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=1600&h=900&fit=crop'); 
-  background-size: cover;
-  background-position: center;
+  background: url('/images/bg/collectors-bg.jpg') center/cover; 
   background-attachment: fixed;
 }
 

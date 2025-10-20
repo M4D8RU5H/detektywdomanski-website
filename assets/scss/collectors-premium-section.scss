@@ -1,26 +1,18 @@
 /* Premium Features */
 .premium-section {
-    padding: 80px 30px;
+    position: relative;
     color: var(--white);
     text-align: center;
-    position: relative;
-    background: url('/images/bg/collectors-premium-bg.webp') center/cover; 
-    background-attachment: fixed;
+    padding: 80px 30px;
     overflow: hidden;
 }
 
-.premium-section::before {
-    content: "";
-    position: absolute;
-    inset: 0;
-    background: linear-gradient(135deg, #2C1810 0%, #3D2415 100%);
-    opacity: 0.66;
-    z-index: 0;
+.premium-bg {
+  background: url('/images/bg/premium-bg.webp') center/cover no-repeat;
 }
 
-.premium-section > * {
-    position: relative;
-    z-index: 1;
+.premium-bg-overlay {
+  background: linear-gradient(135deg, #2C1810 0%, #3D2415 100%);
 }
 
 .premium-section h2 {

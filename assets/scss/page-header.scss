@@ -1,14 +1,33 @@
 .page-header {
+  position: relative;
   color: var(--white);
   text-align: center;
   padding: 180px 30px 80px;
+  overflow: hidden;
 }
 
-.business-page-header,
-.private-page-header,
-.collectors-page-header {
-  position: relative;
-  overflow: hidden;
+.business-bg {
+  background: url('/images/bg/business-bg.webp') center/cover no-repeat;
+}
+
+.business-bg-overlay {
+  background: linear-gradient(135deg, var(--avocado) 0%, var(--avocado-light) 100%);
+}
+
+.private-bg {
+  background: url('/images/bg/private-bg.webp') center/cover no-repeat;
+}
+
+.private-bg-overlay {
+  background: linear-gradient(135deg, var(--salmon) 0%, var(--salmon-light) 100%);
+}
+
+.collectors-bg {
+  background: url('/images/bg/collectors-bg.webp') center/cover no-repeat;
+}
+
+.collectors-bg-overlay {
+  background: linear-gradient(135deg, #2C1810 0%, #3D2415 100%);
 }
 
 .blog-page-header,
@@ -18,49 +37,6 @@
 
 .opinions-page-header {
   background: linear-gradient(135deg, var(--salmon) 0%, var(--salmon-light) 100%);
-}
-
-.business-page-header {
-  background: url('/images/bg/business-bg.webp') center/cover;
-  background-attachment: fixed;
-}
-
-.private-page-header {
-  background: url('/images/bg/personal-bg.webp') center/cover; 
-  background-attachment: fixed;
-}
-
-.collectors-page-header {
-  background: url('/images/bg/collectors-bg.webp') center/cover; 
-  background-attachment: fixed;
-}
-
-.business-page-header::before,
-.private-page-header::before,
-.collectors-page-header::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  opacity: 0.66;
-  z-index: 0;
-}
-
-.business-page-header::before {
-  background: linear-gradient(135deg, var(--avocado) 0%, var(--avocado-light) 100%);
-}
-
-.private-page-header::before {
-  background: linear-gradient(135deg, var(--salmon) 0%, var(--salmon-light) 100%);
-}
-
-.collectors-page-header::before {
-  background: linear-gradient(135deg, #2C1810 0%, #3D2415 100%);
-}
-
-.business-page-header > *,
-.private-page-header > *,
-.collectors-page-header > * {
-  position: relative;
 }
 
 .page-header h1 {

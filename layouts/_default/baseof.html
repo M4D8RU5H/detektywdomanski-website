@@ -37,7 +37,8 @@
     {{ $menu := resources.Get "js/responsive-navbar.js" }}
     {{ $stats := resources.Get "js/stats-counter.js" }}
     {{ $ctaForm := resources.Get "js/cta-form-validation.js" }}
-    {{ $bundle := resources.Concat "js/bundle.js" (slice $main $menu $stats $ctaForm) | minify | fingerprint }}
+    {{ $parallaxBg := resources.Get "js/parallax-bg.js" }}
+    {{ $bundle := resources.Concat "js/bundle.js" (slice $main $menu $stats $ctaForm $parallaxBg) | minify | fingerprint }}
     <script src="{{ $bundle.RelPermalink }}" integrity="{{ $bundle.Data.Integrity }}"></script>
 
 </body>

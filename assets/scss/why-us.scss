@@ -1,24 +1,16 @@
 .why-us {
-  padding: 100px 30px;
+  position: relative;
   color: var(--white);
-  position: relative;
-  background: url('/images/bg/why-us-bg.webp') center/cover; 
-  background-attachment: fixed;
   overflow: hidden;
+  padding: 100px 30px;
 }
 
-.why-us::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background: var(--salmon);
-  opacity: 0.66;
-  z-index: 0;
+.why-us-bg {
+  background: url('/images/bg/why-us-bg.webp') center/cover no-repeat;
 }
 
-.why-us > * {
-  position: relative;
-  z-index: 1;
+.why-us-bg-overlay {
+  background: linear-gradient(135deg, var(--salmon) 0%, var(--salmon-light) 100%);
 }
 
 .features-grid {

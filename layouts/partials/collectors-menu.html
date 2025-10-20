@@ -1,4 +1,4 @@
-<ul class="dropdown-menu">
+<ul class="dropdown-menu {{ if strings.Contains .RelPermalink "/kolekcjonerzy/" }}selected{{ end }}">
     <li><a href="{{ "/kolekcjonerzy/autentycznosc-dziel-sztuki" | relURL }}" class="{{ if eq .RelPermalink "/kolekcjonerzy/autentycznosc-dziel-sztuki/" }}selected{{ end }}">
         <span>Weryfikacja Autentyczności Dzieł Sztuki</span>
     </a></li>

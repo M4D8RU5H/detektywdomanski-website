@@ -6,7 +6,7 @@
 
 .stats-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 40px;
   max-width: 1200px;
   margin: 30px auto;
@@ -39,7 +39,7 @@
 .stat-number,
 .stat-item span {
   font-family: 'Playfair Display', serif;
-  font-size: 56px;
+  font-size: clamp(1.25rem, 6vw, 4rem);
   margin-bottom: 10px;
   font-weight: 700;
 }

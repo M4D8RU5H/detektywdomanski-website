@@ -51,7 +51,10 @@
                 <span>Opinie</span>
                 <i class="fas fa-chevron-right"></i>
             </a></li>
-            <li><a href="{{ "/kontakt" | relURL }}" class="nav-cta">Kontakt</a></li>
+            <li><a href="{{ "/kontakt" | relURL }}" class="nav-cta {{ if strings.Contains .RelPermalink "/opinie/" }}selected{{ end }}">
+                <span>Kontakt</span>
+                <i class="fas fa-chevron-right"></i>
+            </a></li>
         </ul>
 
         <button class="btn-nav-hamburger" aria-label="Menu">

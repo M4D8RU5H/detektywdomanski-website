@@ -1,4 +1,4 @@
-<ul class="dropdown-menu">
+<ul class="dropdown-menu {{ if strings.Contains .RelPermalink "/prywatne/" }}selected{{ end }}">
     <li><a href="{{ "/prywatne/weryfikacja-przedmalzenska" | relURL }}" class="{{ if eq .RelPermalink "/prywatne/weryfikacja-przedmalzenska/" }}selected{{ end }}">
         <span>Weryfikacja Przedmałżeńska</span>
     </a></li>

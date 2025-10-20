@@ -1,8 +1,27 @@
 /* Media Queries */
-@media (max-width: 1250px) {
-  .main-nav .container {
+@media (pointer: coarse) {
+  .main-nav {
+    position: relative;
+  }
+
+  .nav-cta {
+    background: var(--avocado);
+    padding: 0;
+  }
+
+  /* --- Hamburger Menu --- */
+  .nav-links {
+    position: fixed;
+    top: 0;
+    right: -100%; /* behind the screen */
+    width: 60%;
+    height: 100%;
+    background-color: var(--avocado);
     flex-direction: column;
     gap: var(--gutter-sm);
+    align-items: flex-start;
+    transition: right 0.5s ease;
+    z-index: 1500;
   }
 
   .nav-links .has-dropdown:hover .dropdown-menu {
@@ -11,6 +30,105 @@
 
   .nav-links .selected .dropdown-menu {
     display: block; 
+  }
+
+  .nav-links > li {
+    padding: 0 30px;
+    text-align: left;
+    display: block;
+    width: 100%;
+  }
+
+  .nav-links li a {
+    font-size: var(--font-size-md);
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;  
+  }
+
+  .nav-links .has-dropdown a.selected > i {
+    transform: rotate(90deg);
+  }
+
+  .nav-links .has-dropdown .dropdown-menu.selected{
+    display: block;
+    position: relative;
+    top: 0;
+    background-color: var(--avocado);
+    padding: 10px 0;
+    box-shadow: none;
+    text-align: left;
+  }
+
+  /* Right arrow icons */
+  .main-nav ul li a i {
+    display: inline;    
+  }
+
+  .btn-nav-hamburger {
+    display: block;
+  }
+
+  .nav-close {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .nav-links.active {
+    right: 0; /* the menu slides in form the right */
+  }
+
+  /* --- Overlay --- */
+  body.menu-open::after {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 1400;
+  }
+
+  .main-nav.active {
+    background-color: var(--avocado-dark); /* darkens the nav bar */
+  }
+
+  .main-nav ul li a.selected::after {
+    width: 0;
+  }
+
+  .logo.active {
+    filter: brightness(0.5); /* darkens the logo */
+  }
+
+  body.menu-open {
+    overflow: hidden; /* stops scrolling */
+  }    
+
+  .hero {
+    padding-top: 0;
+    align-items: flex-start;
+  }
+
+  .page-header {
+    padding-top: 50px !important;
+  }
+
+  a, button {
+    -webkit-tap-highlight-color: transparent;
+  }
+}
+
+@media (max-width: 1250px) {
+  .main-nav .container {
+    flex-direction: column;
+    gap: var(--gutter-sm);
+  }
+
+  .stat-item span {
+    font-size: clamp(1.25rem, 5vw, 3rem);
   }
 }
 
@@ -46,30 +164,59 @@
   }
 }
 
-@media (max-width: 992px) {
+@media (max-width: 1015px) {
   .hero h1 {
     font-size: var(--h1-md);
+  }
+
+  .stat-item span {
+    font-size: clamp(1.25rem, 5vw, 2.6rem);
+  }
+}
+
+@media(max-width: 935px) {
+  .stats-grid {
+    grid-template-columns: repeat(2, minmax(200px, 1fr));
+    margin: 10px;
   }
 }
 
 @media (max-width: 830px) {
-  .main-nav {
+  .hero {
+    padding-top: 0;
+    align-items: flex-start;
+  }
+
+  .page-header {
+    padding-top: 50px;
+  }
+
+  .service-section {
+    padding: 30px 30px;
+  }
+
+  .contact-section {
+    padding: 0 20px !important;
+  }
+
+  .contact-form {
+    padding: 5px !important;
+  }
+}
+
+@media (max-width: 768px) {   
+  .hero h1 {
+    font-size: var(--h1-md);
+  }
+
+  main-nav {
     position: relative;
   }
-  /*
-      .dropdown-menu {
-        display: none;
-        position: relative; /* wstawione w kolumnie menu 
-        top: 0;
-        left: 0;
-        background-color: var(--avocado-dark);
-        padding-left: 20px;
-    }
 
-    .dropdown-menu.open {
-        display: block;
-    }
-    */
+  .nav-cta {
+    background: var(--avocado);
+    padding: 0;
+  }
 
   /* --- Hamburger Menu --- */
   .nav-links {
@@ -86,10 +233,18 @@
     z-index: 1500;
   }
 
-  .nav-links li {
+  .nav-links .has-dropdown:hover .dropdown-menu {
+    display: none; /* ignorujemy hover */
+  }
+
+  .nav-links .selected .dropdown-menu {
+    display: block; 
+  }
+
+  .nav-links > li {
     padding: 0 30px;
     text-align: left;
-    display: flex;
+    display: block;
     width: 100%;
   }
 
@@ -98,7 +253,21 @@
     color: #fff;
     display: flex;
     justify-content: space-between;
-    width: 100%;
+    width: 100%;  
+  }
+
+  .nav-links .has-dropdown a.selected > i {
+    transform: rotate(90deg);
+  }
+
+  .nav-links .has-dropdown .dropdown-menu.selected{
+    display: block;
+    position: relative;
+    top: 0;
+    background-color: var(--avocado);
+    padding: 10px 0;
+    box-shadow: none;
+    text-align: left;
   }
 
   /* Right arrow icons */
@@ -147,25 +316,6 @@
     overflow: hidden; /* stops scrolling */
   }
 
-  .hero {
-    padding-top: 0;
-    align-items: flex-start;
-  }
-
-  .page-header {
-    padding-top: 50px;
-  }
-
-  .service-section {
-    padding: 30px 30px;
-  }
-}
-
-@media (max-width: 768px) {   
-  .hero h1 {
-    font-size: var(--h1-md);
-  }
-
   .reviews-grid {
     grid-template-columns: 1fr;
   }
@@ -186,6 +336,10 @@
   .contact-form {
     padding: 30px;
   }
+
+  .blog-section{
+    padding: 10px !important;
+  }
 }
 
 @media (max-width: 576px) {
@@ -198,6 +352,68 @@
     font-size: var(--font-size-sm);
     padding: 12px 25px;
     font-size: 14px;
+  }
+
+  .stat-item span {
+    font-size: clamp(1rem, 8vw, 5rem);
+  }
+}
+
+@media (max-width: 475px) {
+  .logo {
+    max-width: 350px;
+  }
+
+  .stat-item span {
+    font-size: clamp(1.25rem, 7vw, 5rem);
+  }
+
+  .stat-item p {
+    font-size: clamp(0.2rem, 3vw, 0.8rem);
+  }
+
+  .quick-contact-item {
+    padding: 20px 20px !important;
+  }
+
+  .quick-contact-item i {
+    font-size:clamp(0.5rem, 4vw, 3.2rem) !important;
+  }
+
+  .quick-contact-item a {
+    font-size:clamp(0.5rem, 4vw, 3.2rem) !important;
+  }
+}
+
+@media (max-width: 420px) {
+  .logo {
+    max-width: 300px;
+  }
+
+  .stats-grid {
+    grid-template-columns: repeat(1, minmax(200px, 1fr));
+  }
+
+  .stat-item span {
+    font-size: clamp(1rem, 13vw, 10rem);
+  }
+
+  .stat-item p {
+    font-size: clamp(0.2rem, 4vw, 2rem);
+  }
+
+  .services-grid {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+
+  .blog-grid {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 0.9fr)) !important;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .reviews-grid {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)) !important;
   }
 }
 

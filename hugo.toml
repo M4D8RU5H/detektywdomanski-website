@@ -10,3 +10,8 @@ uglyURLs = false
 baseURL = "/"
 relativeURLs = true
 #
+
+disableKinds = ["taxonomy", "taxonomyTerm", "RSS"]
+
+trailingSlash = "always" 
+

@@ -21,21 +21,21 @@
             </a></li>
 
             <li class="has-dropdown">
-                <a href="{{ "/biznes" | relURL }}" class="{{ if strings.Contains .RelPermalink "/biznes/" }}selected{{ end }}">
+                <a href="{{ "/biznes/" | relURL }}" class="{{ if strings.Contains .RelPermalink "/biznes/" }}selected{{ end }}">
                     <span>Dla Firm</span>
                     <i class="fas fa-chevron-right"></i>
                 </a>
                 {{ partial "business-menu.html" . }}
             </li>
             <li class="has-dropdown">
-                <a href="{{ "/prywatne" | relURL }}" class="{{ if strings.Contains .RelPermalink "/prywatne/" }}selected{{ end }}">
+                <a href="{{ "/prywatne/" | relURL }}" class="{{ if strings.Contains .RelPermalink "/prywatne/" }}selected{{ end }}">
                     <span>Dla Osób Prywatnych</span>
                     <i class="fas fa-chevron-right"></i>
                 </a>
                 {{ partial "private-menu.html" . }}
             </li>
             <li class="has-dropdown">
-                <a href="{{ "/kolekcjonerzy" | relURL }}" class="{{ if strings.Contains .RelPermalink "/kolekcjonerzy/" }}selected{{ end }}">
+                <a href="{{ "/kolekcjonerzy/" | relURL }}" class="{{ if strings.Contains .RelPermalink "/kolekcjonerzy/" }}selected{{ end }}">
                     <span>Dla Kolekcjonerów</span>
                     <i class="fas fa-chevron-right"></i>
                 </a>
@@ -43,15 +43,15 @@
             </li>
             </a></li>
 
-            <li><a href="{{ "/blog" | relURL }}" class="{{ if strings.Contains .RelPermalink "/blog/" }}selected{{ end }}">
+            <li><a href="{{ "/blog/" | relURL }}" class="{{ if strings.Contains .RelPermalink "/blog/" }}selected{{ end }}">
                 <span>Blog</span>
                 <i class="fas fa-chevron-right"></i>
             </a></li>
-            <li><a href="{{ "/opinie" | relURL }}" class="{{ if strings.Contains .RelPermalink "/opinie/" }}selected{{ end }}">
+            <li><a href="{{ "/opinie/" | relURL }}" class="{{ if strings.Contains .RelPermalink "/opinie/" }}selected{{ end }}">
                 <span>Opinie</span>
                 <i class="fas fa-chevron-right"></i>
             </a></li>
-            <li><a href="{{ "/kontakt" | relURL }}" class="nav-cta {{ if strings.Contains .RelPermalink "/opinie/" }}selected{{ end }}">
+            <li><a href="{{ "/kontakt/" | relURL }}" class="nav-cta {{ if strings.Contains .RelPermalink "/opinie/" }}selected{{ end }}">
                 <span>Kontakt</span>
                 <i class="fas fa-chevron-right"></i>
             </a></li>

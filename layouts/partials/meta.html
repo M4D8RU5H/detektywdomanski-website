@@ -11,13 +11,9 @@
   {{ end }}
 </title>
 
-{{ if .IsHome }}
-<meta name="description" content="{{ .Site.Params.description }}">
-<link rel="canonical" href="{{ .Permalink }}">
-{{ else }}
 <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
 <link rel="canonical" href="{{ .Permalink }}">
-{{ end }}
+
 
 <meta name="robots" content="index, follow">
 <meta name="author" content="{{ with .Params.author }}{{ . }}{{ else }}{{ .Site.Params.author | default "DETEKTYW DOMAŃSKI PL" }}{{ end }}">

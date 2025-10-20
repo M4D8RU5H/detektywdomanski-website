@@ -2,7 +2,7 @@
 title: "Poszukiwanie Dowodów w Sprawach Niesłusznych Wyroków"
 icon: "fas fa-balance-scale"
 description: "Profesjonalne poszukiwanie dowodów w sprawach niesłusznych wyroków. Analiza wcześniejszych ustaleń, weryfikacja świadków i dowodów. Współpraca z kancelariami prawnymi, pełna poufność i wsparcie dla skazanych."
-author: "DETEKTYW DOMAŃSKI PL Sp. z o.o."
+author: "DETEKTYW DOMANSKI PL Sp. z o.o."
 
 benefits:
   - "Analiza wcześniejszych ustaleń sądowych"

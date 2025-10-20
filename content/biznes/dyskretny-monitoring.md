@@ -2,7 +2,7 @@
 title: "Dyskretny Monitoring Wizyjny"
 icon: "fas fa-video"
 description: "Profesjonalny, dyskretny monitoring wizyjny – pełna kontrola nad kluczowymi obszarami firmy, analiza nagrań i raporty detektywistyczne. Skuteczne systemy dla biznesu."
-author: "DETEKTYW DOMAŃSKI PL Sp. z o.o."
+author: "DETEKTYW DOMANSKI PL Sp. z o.o."
 
 benefits:
   - "Profesjonalne kamery trudne do wykrycia"

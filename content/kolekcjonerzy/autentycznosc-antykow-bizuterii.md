@@ -1,8 +1,8 @@
 ---
 title: "Antyki i Biżuteria – Ocena Autentyczności i Wartości"
 icon: "fas fa-gem"
-description: "Ekspercka weryfikacja autentyczności antyków, biżuterii i zegarków. DETEKTYW DOMAŃSKI zapewnia rzetelną ocenę wieku, pochodzenia i wartości rynkowej obiektów kolekcjonerskich."
-author: "DETEKTYW DOMAŃSKI PL Sp. z o.o."
+description: "Ekspercka weryfikacja autentyczności antyków, biżuterii i zegarków. DETEKTYW DOMANSKI zapewnia rzetelną ocenę wieku, pochodzenia i wartości rynkowej obiektów kolekcjonerskich."
+author: "DETEKTYW DOMANSKI PL Sp. z o.o."
 
 benefits:
   - "Weryfikacja autentyczności kamieni szlachetnych i biżuterii"

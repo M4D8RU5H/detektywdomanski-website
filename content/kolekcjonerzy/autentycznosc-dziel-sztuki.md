@@ -1,8 +1,8 @@
 ---
 title: "Ekspertyzy i Weryfikacja Autentyczności Dzieł Sztuki"
 icon: "fas fa-palette"
-description: "Profesjonalna ekspertyza dzieł sztuki – weryfikacja autentyczności obrazów, rzeźb i grafik. DETEKTYW DOMAŃSKI zapewnia analizę stylu, technik, materiałów i proweniencji oraz raporty z wartością prawną."
-author: "DETEKTYW DOMAŃSKI PL Sp. z o.o."
+description: "Profesjonalna ekspertyza dzieł sztuki – weryfikacja autentyczności obrazów, rzeźb i grafik. DETEKTYW DOMANSKI zapewnia analizę stylu, technik, materiałów i proweniencji oraz raporty z wartością prawną."
+author: "DETEKTYW DOMANSKI PL Sp. z o.o."
 
 benefits:
   - "Analiza stylu i techniki wykonania dzieła sztuki"

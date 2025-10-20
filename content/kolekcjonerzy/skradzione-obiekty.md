@@ -1,8 +1,8 @@
 ---
 title: "Poszukiwanie Skradzionych Dzieł Sztuki i Obiektów Kolekcjonerskich"
 icon: "fas fa-search"
-description: "Skuteczne poszukiwanie skradzionych dzieł sztuki i unikatowych obiektów kolekcjonerskich. Międzynarodowe działania, analiza śladów cyfrowych i monitoring rynków wtórnych. Dyskrecja i profesjonalizm DETEKTYW DOMAŃSKI PL."
-author: "DETEKTYW DOMAŃSKI PL Sp. z o.o."
+description: "Skuteczne poszukiwanie skradzionych dzieł sztuki i unikatowych obiektów kolekcjonerskich. Międzynarodowe działania, analiza śladów cyfrowych i monitoring rynków wtórnych. Dyskrecja i profesjonalizm DETEKTYW DOMANSKI PL."
+author: "DETEKTYW DOMANSKI PL Sp. z o.o."
 
 benefits:
   - "Działania międzynarodowe i transgraniczne"

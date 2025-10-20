@@ -2,7 +2,7 @@
 title: "Audyt Bezpieczeństwa i Przeciwdziałanie Kradzieżom"
 icon: "fas fa-clipboard-check"
 description: "Audyt bezpieczeństwa – analiza procedur, systemów i zachowań pracowników, wykrywanie luk, ochrona przed kradzieżą, sabotażem i cyberatakami. Profesjonalny raport i rekomendacje dla zarządu."
-author: "DETEKTYW DOMAŃSKI PL Sp. z o.o."
+author: "DETEKTYW DOMANSKI PL Sp. z o.o."
 
 benefits:
   - "Analiza procedur i systemów zabezpieczeń"

@@ -2,7 +2,7 @@
 title: "Poszukiwanie Dłużników"
 icon: "fas fa-search-dollar"
 description: "Skuteczne poszukiwanie dłużników i ich majątku. Ustalenie miejsca pobytu, źródeł dochodów i powiązań biznesowych. Profesjonalne raporty dla skutecznej windykacji krajowej i międzynarodowej."
-author: "DETEKTYW DOMAŃSKI PL Sp. z o.o."
+author: "DETEKTYW DOMANSKI PL Sp. z o.o."
 
 benefits:
   - "Ustalenie aktualnego miejsca pobytu dłużnika"

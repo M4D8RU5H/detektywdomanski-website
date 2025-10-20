@@ -2,7 +2,7 @@
 title: "Weryfikacja Przedmałżeńska Partnera/Partnerki"
 icon: "fas fa-heart"
 description: "Dyskretna i profesjonalna weryfikacja przedmałżeńska partnera lub partnerki. Analiza przeszłości, sytuacji finansowej, powiązań społecznych i lojalności."
-author: "DETEKTYW DOMAŃSKI PL Sp. z o.o."
+author: "DETEKTYW DOMANSKI PL Sp. z o.o."
 
 benefits:
   - "Przeszłość i historię partnera"

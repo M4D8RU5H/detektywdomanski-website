@@ -2,7 +2,7 @@
 title: "Sprawy Mienia Zabużańskiego"
 icon: "fas fa-landmark"
 description: "Specjalistyczne ustalanie praw do mienia pozostawionego poza granicami Polski. Analiza dokumentów historycznych, archiwalnych i akt sądowych. Profesjonalna pomoc w dochodzeniu roszczeń."
-author: "DETEKTYW DOMAŃSKI PL Sp. z o.o."
+author: "DETEKTYW DOMANSKI PL Sp. z o.o."
 
 benefits:
   - "Analiza dokumentów historycznych i archiwalnych"

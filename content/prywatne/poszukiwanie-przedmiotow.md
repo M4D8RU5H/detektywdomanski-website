@@ -2,7 +2,7 @@
 title: "Poszukiwanie Przedmiotów"
 icon: "fas fa-car"
 description: "Profesjonalne odnajdywanie skradzionych, zaginionych lub przywłaszczonych dóbr materialnych. Poszukiwania samochodów, naczep, sprzętu budowlanego, maszyn i wartościowych przedmiotów w kraju i za granicą."
-author: "DETEKTYW DOMAŃSKI PL Sp. z o.o."
+author: "DETEKTYW DOMANSKI PL Sp. z o.o."
 
 benefits:
   - "Skradzione samochody i motocykle"

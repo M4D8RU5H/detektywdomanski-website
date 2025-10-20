@@ -2,7 +2,7 @@
 title: "Monitoring Pracowników i Nadużyć Służbowych"
 icon: "fas fa-user-secret"
 description: "Profesjonalny monitoring pracowników – wykrywanie nadużyć, nielojalności i fałszerstw. Dyskretne działania detektywistyczne w zgodzie z prawem, pełna poufność i skuteczne raporty dla pracodawców."
-author: "DETEKTYW DOMAŃSKI PL Sp. z o.o."
+author: "DETEKTYW DOMANSKI PL Sp. z o.o."
 
 benefits:
   - "Dyskretna obserwacja zgodna z prawem"

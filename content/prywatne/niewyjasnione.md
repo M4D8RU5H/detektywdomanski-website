@@ -2,7 +2,7 @@
 title: "Poszukiwanie Dowodów do Spraw Niewyjaśnionych"
 icon: "fas fa-search"
 description: "Profesjonalne poszukiwanie dowodów w sprawach umorzonych lub zawieszonych. Analiza materiałów, wykrywanie luk i błędów, poszukiwanie świadków. Raporty dla prawników i pełne wsparcie dla rodzin."
-author: "DETEKTYW DOMAŃSKI PL Sp. z o.o."
+author: "DETEKTYW DOMANSKI PL Sp. z o.o."
 
 benefits:
   - "Ponowna analiza materiałów dowodowych"

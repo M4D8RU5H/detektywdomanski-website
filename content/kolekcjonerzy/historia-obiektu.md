@@ -1,8 +1,8 @@
 ---
 title: "Badanie Proweniencji i Historii Obiektu"
 icon: "fas fa-history"
-description: "Analiza proweniencji dzieł sztuki i antyków – ustalanie historii obiektu, legalności pochodzenia oraz pełnej drogi własnościowej. DETEKTYW DOMAŃSKI zapewnia szczegółowe raporty i współpracę z archiwami międzynarodowymi."
-author: "DETEKTYW DOMAŃSKI PL Sp. z o.o."
+description: "Analiza proweniencji dzieł sztuki i antyków – ustalanie historii obiektu, legalności pochodzenia oraz pełnej drogi własnościowej. DETEKTYW DOMANSKI zapewnia szczegółowe raporty i współpracę z archiwami międzynarodowymi."
+author: "DETEKTYW DOMANSKI PL Sp. z o.o."
 
 benefits:
   - "Analiza dokumentów własności i transakcji"

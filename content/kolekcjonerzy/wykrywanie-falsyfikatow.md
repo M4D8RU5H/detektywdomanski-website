@@ -2,7 +2,7 @@
 title: "Analiza Laboratoryjna i Wykrywanie Falsyfikatów"
 icon: "fas fa-microscope"
 description: "Nowoczesna analiza laboratoryjna dzieł sztuki i antyków. Wykrywanie falsyfikatów, analiza pigmentów i mikroskopowa. Profesjonalne raporty dla kolekcjonerów, muzeów i inwestorów."
-author: "DETEKTYW DOMAŃSKI PL Sp. z o.o."
+author: "DETEKTYW DOMANSKI PL Sp. z o.o."
 
 benefits:
   - "Spektroskopia i analiza pigmentów"

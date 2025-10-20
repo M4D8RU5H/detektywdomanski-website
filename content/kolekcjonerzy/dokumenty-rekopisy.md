@@ -1,8 +1,8 @@
 ---
 title: "Dokumenty i Rękopisy – Ekspertyzy Historyczne"
 icon: "fas fa-scroll"
-description: "Ekspertyzy dokumentów historycznych i rękopisów – weryfikacja autentyczności autografów, listów i manuskryptów. DETEKTYW DOMAŃSKI oferuje badania papieru, atramentów, stempli i podpisów oraz raporty dla sądów i aukcji."
-author: "DETEKTYW DOMAŃSKI PL Sp. z o.o."
+description: "Ekspertyzy dokumentów historycznych i rękopisów – weryfikacja autentyczności autografów, listów i manuskryptów. DETEKTYW DOMANSKI oferuje badania papieru, atramentów, stempli i podpisów oraz raporty dla sądów i aukcji."
+author: "DETEKTYW DOMANSKI PL Sp. z o.o."
 
 benefits:
   - "Autentyczność autografów i podpisów historycznych"

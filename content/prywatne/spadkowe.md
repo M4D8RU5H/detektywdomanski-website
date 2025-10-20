@@ -2,7 +2,7 @@
 title: "Sprawy Spadkowe i Poszukiwanie Spadkobierców"
 icon: "fas fa-file-contract"
 description: "Profesjonalne ustalanie faktycznych spadkobierców i poszukiwanie osób uprawnionych do dziedziczenia. Działania w Polsce i za granicą, wsparcie dla prawników i notariuszy."
-author: "DETEKTYW DOMAŃSKI PL Sp. z o.o."
+author: "DETEKTYW DOMANSKI PL Sp. z o.o."
 
 benefits:
   - "Ustalanie faktycznych spadkobierców"

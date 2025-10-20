@@ -2,7 +2,7 @@
 title: "Ochrona Tajemnic Handlowych"
 icon: "fas fa-shield-alt"
 description: "Zabezpieczanie know-how, patentów, baz danych i poufnych informacji firmowych. Wykrywanie wycieków, podsłuchów i zagrożeń konkurencyjnych. Budowanie kultury bezpieczeństwa i stabilności przedsiębiorstwa."
-author: "DETEKTYW DOMAŃSKI PL Sp. z o.o."
+author: "DETEKTYW DOMANSKI PL Sp. z o.o."
 
 benefits:
   - "Wykrywanie wycieków informacji i danych"

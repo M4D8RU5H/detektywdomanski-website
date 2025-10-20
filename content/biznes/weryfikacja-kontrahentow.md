@@ -1,8 +1,8 @@
 ---
 title: "Weryfikacja Kontrahentów"
 icon: "fas fa-user-check"
-description: "Profesjonalna weryfikacja kontrahentów – analiza finansowa, powiązania kapitałowe, rejestry dłużników i ryzyka prawne. DETEKTYW DOMAŃSKI zapewnia bezpieczeństwo decyzji biznesowych w Polsce i za granicą."
-author: "DETEKTYW DOMAŃSKI PL Sp. z o.o."
+description: "Profesjonalna weryfikacja kontrahentów – analiza finansowa, powiązania kapitałowe, rejestry dłużników i ryzyka prawne. DETEKTYW DOMANSKI zapewnia bezpieczeństwo decyzji biznesowych w Polsce i za granicą."
+author: "DETEKTYW DOMANSKI PL Sp. z o.o."
 
 benefits:
   - "Analiza dokumentacji rejestrowej i danych KRS"

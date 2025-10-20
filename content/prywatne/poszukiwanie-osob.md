@@ -2,7 +2,7 @@
 title: "Poszukiwanie Osób"
 icon: "fas fa-user-friends"
 description: "Profesjonalne poszukiwanie osób zaginionych, ukrywających się oraz dłużników alimentacyjnych. Analiza baz danych, monitoring cyfrowy i obserwacja terenowa. Usługa realizowana w kraju i za granicą, z pełną dyskrecją."
-author: "DETEKTYW DOMAŃSKI PL Sp. z o.o."
+author: "DETEKTYW DOMANSKI PL Sp. z o.o."
 
 benefits:
   - "Osoby zaginione i ukrywające się"

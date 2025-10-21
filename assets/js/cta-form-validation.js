@@ -80,10 +80,30 @@ function isValidPhone(phone) {
             if (!validateInput(input)) isValid = false;
         });
 
-        if (isValid) {
-            alert('Formularz został wysłany poprawnie!');
-            form.reset();
-            [nameInput, emailInput, phoneInput, messageInput].forEach(clearError);
-        }
+        if (!isValid) return;
+
+        const formData = new FormData(form);
+
+        fetch('/php/contact.php', {
+            method: 'POST',
+            body: formData
+        })
+        .then(res => res.json())
+        .then(data => {
+            if(data.status === 'success'){
+                alert(data.message);
+                form.reset();
+                [nameInput, emailInput, phoneInput, messageInput].forEach(clearError);
+            } else if(data.status === 'error' && data.errors){
+                // walidacja z PHP
+                for(let field in data.errors){
+                    const input = document.getElementById(field);
+                    showError(input, data.errors[field]);
+                }
+            } else {
+                alert(data.message || 'Wystąpił błąd.');
+            }
+        })
+        .catch(err => console.error(err));
     });
 });

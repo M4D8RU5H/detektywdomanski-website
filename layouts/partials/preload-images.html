@@ -1,6 +1,18 @@
+{{ if eq .RelPermalink "/" }}
 <link rel="preload" as="image" href="/images/bg/hero-bg.webp">
-<link rel="preload" as="image" href="/images/why-us-bg.webp">
+<link rel="preload" as="image" href="/images/bg/why-us-bg.webp">
+{{ end }}
+
+{{ if eq .RelPermalink "/biznes" }}
 <link rel="preload" as="image" href="/images/bg/business-bg.webp">
-<link rel="preload" as="image" href="/images/bg/personal-bg.webp">
+{{ end }}
+
+{{ if eq .RelPermalink "/prywatne" }}
+<link rel="preload" as="image" href="/images/bg/private-bg.webp">
+{{ end }}
+
+{{ if eq .RelPermalink "/kolekcjonerzy" }}
 <link rel="preload" as="image" href="/images/bg/collectors-bg.webp">
-<link rel="preload" as="image" href="/images/bg/collectors-premium-bg.jpg">
+<link rel="preload" as="image" href="/images/bg/collectors-premium-bg.webp">
+{{ end }}
+

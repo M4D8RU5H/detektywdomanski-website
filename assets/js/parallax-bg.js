@@ -9,7 +9,7 @@ function updateParallax() {
 
     if (scrollY + window.innerHeight > offsetTop && scrollY < offsetTop + rect.height) {
       const distance = scrollY - offsetTop;
-      bg.style.transform = `translateY(${distance * 0.66}px)`;
+      bg.style.transform = `translateY(${distance * 0.6}px)`;
     }
   });
 }

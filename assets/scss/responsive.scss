@@ -363,6 +363,22 @@
   .stat-item p {
     font-size: clamp(0.3rem, 2.5vw, 1rem);
   }
+
+  .cookie-banner {
+    flex-direction: column;
+    padding: 10px;
+    font-size: 12px;
+  }
+
+  .cookie-buttons {
+    margin-top: 10px;
+    width: 100%;
+  }
+
+  .cookie-accept, .cookie-reject {
+    width: 80%;
+    margin: 5px 0;
+  }
 }
 
 @media (max-width: 620px) {
@@ -415,6 +431,16 @@
 
   .quick-contact-item a {
     font-size:clamp(0.5rem, 4vw, 3.2rem) !important;
+  }
+
+  .cookie-banner {
+    padding: 8px;
+    font-size: 11px;
+  }
+
+  .cookie-accept, .cookie-reject {
+    width: 90%;
+    font-size: 12px;
   }
 }
 

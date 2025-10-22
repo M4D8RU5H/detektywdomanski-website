@@ -1,0 +1,32 @@
+name: Deploy Hugo site to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main  # Zmiana na 'master' jeśli masz taką gałąź
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    # 1. Checkout repozytorium
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    # 2. Ustawienie Hugo (jeśli masz go zainstalowanego lokalnie)
+    - name: Set up Hugo
+      uses: peaceiris/actions-hugo@v2
+      with:
+        hugo-version: 0.150.1'  # Wersja Hugo, dostosuj do swojej wersji
+
+    # 3. Budowanie strony Hugo
+    - name: Build the Hugo site
+      run: hugo --minify
+
+    # 4. Wypchnięcie plików na gałąź gh-pages
+    - name: Deploy to GitHub Pages
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./public  # Folder, który Hugo wygenerował

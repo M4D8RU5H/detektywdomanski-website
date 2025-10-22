@@ -37,7 +37,7 @@ Im dłużej trwa rozłąka, tym trudniej odwrócić emocjonalne skutki dla dziec
 
 Jeśli znajdujesz się w sytuacji porwania rodzicielskiego – nie czekaj, aż sprawy „same się wyjaśnią”. Skontaktuj się z nami.
 
-W DETEKTYW DOMAŃSKI sp. z o.o. pomagamy rodzicom odzyskać spokój, bezpieczeństwo i kontakt z dzieckiem.  
+W DETEKTYW DOMANSKI sp. z o.o. pomagamy rodzicom odzyskać spokój, bezpieczeństwo i kontakt z dzieckiem.  
 
 📞 [Zadzwoń lub napisz – pierwsza konsultacja jest bezpłatna.](/kontakt/)
 

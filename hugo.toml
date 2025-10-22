@@ -8,7 +8,7 @@ uglyURLs = false
 
 # Delete for production
 baseURL = "/"
-relativeURLs = false
+relativeURLs = true
 #
 
 disableKinds = ["taxonomy", "taxonomyTerm", "RSS"]

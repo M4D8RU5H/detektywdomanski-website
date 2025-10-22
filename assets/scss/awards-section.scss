@@ -1,0 +1,45 @@
+.awards-section {
+  padding: 50px 20px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.awards-title {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  color: var(--avocado);
+}
+
+.awards-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.award-item {
+  display: inline-block;
+  padding: 20px;
+  width: auto;
+  max-width: 500px;
+  min-width: 325px;
+}
+
+.oferteo-badge, .orlyochrony-badge {
+  max-width: 100%;
+}
+
+.oferteo-badge {
+  width: 200px;
+}
+
+.orlyochrony-badge {
+  width: 400px;
+}
+
+
+
+

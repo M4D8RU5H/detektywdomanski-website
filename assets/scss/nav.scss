@@ -28,16 +28,20 @@
   color: var(--white);
 }
 
-.logo-icon {
-  width: 55px;
-  height: 55px;
-  border-radius: 50%;
+.logo-img {
+  width: 70px;
+  height: 70px;
+  border-radius: 100%;
   background-color: var(--white);
   display: flex;
   align-items: center;
   justify-content: center;
   font-size: 26px;
   box-shadow: 0 3px 15px rgba(0,0,0,0.2);
+}
+
+.logo-img img {
+  width: 50px;
 }
 
 .logo-text {

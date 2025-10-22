@@ -117,13 +117,27 @@
     filter: brightness(0.5); /* darkens the logo */
   }
 
+  .main-nav ul li a.selected::after {
+    width: 0;
+  }
+
   .page-header {
     padding-top: 50px !important;
+  }
+
+  .service-section, .blog-article {
+    padding: 30px 30px !important;
   }
 
   a, button {
     -webkit-tap-highlight-color: transparent;
   }
+}
+
+@media (max-width: 1284px) {
+  .why-us-bg {
+  background: url('/images/bg/why-us-bg-mobile.webp') center/cover no-repeat;
+}
 }
 
 @media (max-width: 1250px) {
@@ -196,8 +210,8 @@
     padding-top: 50px;
   }
 
-  .service-section {
-    padding: 30px 30px;
+  .service-section, .blog-article {
+    padding: 30px 30px !important;
   }
 
   .contact-section {
@@ -214,7 +228,7 @@
     font-size: var(--h1-md);
   }
 
-  main-nav {
+  .main-nav {
     position: relative;
   }
 
@@ -323,16 +337,16 @@
     background-color: var(--avocado-dark); /* darkens the nav bar */
   }
 
-  .main-nav ul li a.selected::after {
-    width: 0;
-  }
-
   body.menu-open {
     overflow: hidden; /* stops scrolling */
   }
 
   .logo.active {
     filter: brightness(0.5); /* darkens the logo */
+  }
+
+  .main-nav ul li a.selected::after {
+    width: 0;
   }
 
   .reviews-grid {

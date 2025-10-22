@@ -19,6 +19,7 @@ jobs:
       uses: peaceiris/actions-hugo@v2
       with:
         hugo-version: '0.150.1'  # Wersja Hugo, dostosuj do swojej wersji
+        extended: true
 
     # 3. Budowanie strony Hugo
     - name: Build the Hugo site

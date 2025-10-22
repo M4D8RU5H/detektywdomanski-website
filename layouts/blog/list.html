@@ -9,20 +9,27 @@
 <section class="blog-section">
     <div class="container">
         <div class="blog-grid">
-            <!-- Blog Post 1 -->
-            <div class="blog-card">
-                <div class="blog-image">📊</div>
-                <div class="blog-content">
-                    <span class="blog-category">Dla Firm</span>
-                    <div class="blog-meta">
-                        <span><i class="far fa-calendar"></i> 15 Stycznia 2025</span>
-                        <span><i class="far fa-clock"></i> 5 min</span>
+
+            {{ range where .Site.Pages "Section" "blog" }}
+                {{ if eq .Type "post" }}
+                <div class="blog-card">
+                    <div class="blog-image">
+                        <img src="{{ .Params.image }}">
                     </div>
-                    <h3>Jak Weryfikować Kontrahenta Przed Współpracą?</h3>
-                    <p>Poznaj kluczowe kroki weryfikacji biznesowej, które uchronią Twoją firmę przed nieuczciwymi partnerami. Sprawdzone metody od ekspertów.</p>
-                    <a href="#" class="read-more">Czytaj więcej <i class="fas fa-arrow-right"></i></a>
+                    <div class="blog-content">
+                        <span class="blog-category">{{ .Params.category }}</span>
+                        <div class="blog-meta">
+                            <span><i class="far fa-calendar"></i> {{ .Date.Format "2.06.2006" }}</span>
+                            <span><i class="far fa-clock"></i> {{ .Params.reading_time }}</span>                            
+                        </div>
+                        <h3>{{ .Title }}</h3>
+                        <p>{{ .Description }}</p>
+                        <a href="{{ .Permalink }}" class="read-more">Czytaj więcej <i class="fas fa-arrow-right"></i></a>
+                    </div>
                 </div>
-            </div>
+                {{ end }}
+            {{ end }}
+
 
             <!-- Blog Post 2 -->
             <div class="blog-card">

@@ -1,7 +1,12 @@
 ---
 title: "Porwania rodzicielskie – narastający problem i rola prywatnego detektywa"
+description: "Porwanie rodzicielskie to dramat, który wymaga szybkiej reakcji i wsparcia profesjonalistów. Dowiedz się, jak prywatny detektyw może pomóc w ustaleniu miejsca pobytu dziecka, współpracując z organami ścigania, aby przywrócić spokój i bezpieczeństwo rodzinie."
 date: 2025-10-22
 slug: porwania-rodzicielskie
+type: post
+category: "Dla Osób Prywatnych"
+reading_time: "5 min"
+image: /images/blog/parental-kidnapping.webp
 ---
 
 Porwanie rodzicielskie to dramat, który burzy poczucie bezpieczeństwa całej rodziny. Dla wielu rodziców to moment, w którym świat nagle staje w miejscu. W takiej sytuacji liczy się czas, spokój i odpowiednie działanie – a często także wsparcie prywatnego detektywa.

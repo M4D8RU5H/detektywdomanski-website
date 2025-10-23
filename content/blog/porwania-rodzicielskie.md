@@ -1,7 +1,7 @@
 ---
 title: "Porwania rodzicielskie – narastający problem i rola prywatnego detektywa"
 description: "Porwanie rodzicielskie to dramat, który wymaga szybkiej reakcji i wsparcia profesjonalistów. Dowiedz się, jak prywatny detektyw może pomóc w ustaleniu miejsca pobytu dziecka, współpracując z organami ścigania, aby przywrócić spokój i bezpieczeństwo rodzinie."
-date: 2025-10-22
+date: 2023-04-27
 slug: porwania-rodzicielskie
 type: post
 category: "Dla Osób Prywatnych"
@@ -17,7 +17,7 @@ To sytuacja, w której jedno z rodziców zabiera dziecko bez wiedzy lub zgody dr
 
 Z doświadczenia wiem, że w takich sytuacjach emocje są ogromne – strach, bezradność, gniew. I jednocześnie… pustka, bo nikt nie mówi, co dokładnie robić.
 
-![Pluszowy miś siedzący w oknie, tylem do kamery, patrzący na zewnątrz. Obrazek ma melancholijny i przygnębiający charakter, odzwierciedlający poczucie straty i pustki, które mogą towarzyszyć w sytuacji porwania rodzicielskiego.](/images/blog/parental-kidnapping.webp)
+![Pluszowy miś siedzący w błocie. Obrazek ma melancholijny i przygnębiający charakter, odzwierciedlający poczucie straty i pustki, które mogą towarzyszyć w sytuacji porwania rodzicielskiego.](/images/blog/parental-kidnapping.webp)
 
 ## Gdzie szukać pomocy?
 
@@ -38,11 +38,9 @@ Działamy szybko i dyskretnie, zanim osoba porywająca zdąży się ukryć lub o
 
 Im dłużej trwa rozłąka, tym trudniej odwrócić emocjonalne skutki dla dziecka. Każdy dzień to pogłębiający się lęk i dezorientacja. Dlatego często działamy równolegle z instytucjami publicznymi, uzupełniając ich działania o to, czego im brakuje – szybkość, elastyczność i determinację.
 
-## Zakończenie
+---
 
-Jeśli znajdujesz się w sytuacji porwania rodzicielskiego – nie czekaj, aż sprawy „same się wyjaśnią”. Skontaktuj się z nami.
+Jeśli znajdujesz się w sytuacji porwania rodzicielskiego – nie czekaj, aż sprawy „same się wyjaśnią”. Skontaktuj się z nami. **W DETEKTYW DOMANSKI sp. z o.o.** pomagamy rodzicom odzyskać spokój, bezpieczeństwo i kontakt z dzieckiem.  
 
-W DETEKTYW DOMANSKI sp. z o.o. pomagamy rodzicom odzyskać spokój, bezpieczeństwo i kontakt z dzieckiem.  
-
-📞 [Zadzwoń lub napisz – pierwsza konsultacja jest bezpłatna.](/kontakt/)
+📞 [**Zadzwoń lub napisz** – pierwsza konsultacja jest bezpłatna.](/kontakt/)
 

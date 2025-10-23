@@ -30,7 +30,7 @@ Poszukiwanie skradzionych dzieł sztuki to misja, która łączy pasję z odpowi
 
 Prowadzimy śledztwa dotyczące zaginionych obrazów, rzeźb, ikon, biżuterii oraz innych obiektów o wartości historycznej lub kolekcjonerskiej. Współpracujemy z muzeami, prywatnymi kolekcjonerami, domami aukcyjnymi i organami ścigania, by skutecznie lokalizować utracone dzieła.
 
-## Samochodzy kolekcjonerskie
+## Samochody kolekcjonerskie
 
 Kradzież klasycznego Cadillaca, limitowanego Porsche czy sportowego coupe to nie tylko strata materialna, ale także utrata dziedzictwa. W takich sprawach kluczowe są numery VIN, dokumentacja techniczna i historia serwisowa. Prowadzimy analizy zdjęć, śledzenie transakcji międzynarodowych oraz monitoring aukcji. Dzięki kontaktom z warsztatami renowacyjnymi, domami aukcyjnymi i służbami granicznymi zwiększamy szanse na odnalezienie pojazdu i jego bezpieczny zwrot właścicielowi.
 

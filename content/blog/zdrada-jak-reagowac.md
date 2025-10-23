@@ -37,5 +37,5 @@ Dowody mogą być użyte w sądzie – przy rozwodzie, podziale majątku, walce 
 ---
 
 Zdrada boli, ale prawda wyzwala. Jeśli czujesz, że coś jest nie tak – nie musisz tkwić w niepewności.  
-📞 [**DETEKTYW DOMAŃSKI sp. z o.o.** pomoże Ci poznać fakty i odzyskać spokój.](/kontakt/)
+📞 [**DETEKTYW DOMANSKI sp. z o.o.** pomoże Ci poznać fakty i odzyskać spokój.](/kontakt/)
 

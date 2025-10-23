@@ -45,4 +45,4 @@ Detektyw może:
 ---
 
 Zaginięcie bliskiej osoby to jedna z najtrudniejszych prób w życiu. W takich chwilach potrzebny jest ktoś, kto potrafi działać chłodno, gdy emocje sięgają zenitu.  
-📞 [**DETEKTYW DOMAŃSKI sp. z o.o.** – pomagamy odnaleźć ludzi, prawdę i spokój.](/kontakt/)
+📞 [**DETEKTYW DOMANSKI sp. z o.o.** – pomagamy odnaleźć ludzi, prawdę i spokój.](/kontakt/)

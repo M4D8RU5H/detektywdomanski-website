@@ -37,4 +37,4 @@ Największym sukcesem jest zapobiec stratom, zanim się wydarzą.
 ---
 
 Szpiegostwo gospodarcze to cichy wróg nowoczesnego biznesu. Jeśli masz wrażenie, że Twoje dane lub pomysły „wyciekają”, reaguj natychmiast.  
-📞 [**DETEKTYW DOMAŃSKI sp. z o.o.** – chronimy firmy przed tym, czego nie widać gołym okiem.](/kontakt/)
+📞 [**DETEKTYW DOMANSKI sp. z o.o.** – chronimy firmy przed tym, czego nie widać gołym okiem.](/kontakt/)

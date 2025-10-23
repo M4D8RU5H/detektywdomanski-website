@@ -42,4 +42,4 @@ Zdrada może jednak wpłynąć na inne decyzje:
 ---
 
 Prawo może różnić się między krajami, ale emocje – nigdy. Jeśli żyjesz w relacji między Polską a Niemcami i podejrzewasz zdradę, działaj rozsądnie.  
-📞 [**Skontaktuj się z nami** – **DETEKTYW DOMAŃSKI sp. z o.o.** pomoże Ci zebrać dowody i wyjaśnić sytuację z poszanowaniem prawa obu państw.](/kontakt/)
+📞 [**Skontaktuj się z nami** – **DETEKTYW DOMANSKI sp. z o.o.** pomoże Ci zebrać dowody i wyjaśnić sytuację z poszanowaniem prawa obu państw.](/kontakt/)

@@ -43,4 +43,4 @@ Jeśli masz wątpliwości – porozmawiaj z nami.
 ---
 
 Miłość jest piękna, ale naiwność – kosztowna. Nie pozwól, by ktoś grał na Twoich emocjach.  
-📞 [**DETEKTYW DOMAŃSKI sp. z o.o.** – sprawdzimy, z kim naprawdę piszesz.](/kontakt/)
+📞 [**DETEKTYW DOMANsSKI sp. z o.o.** – sprawdzimy, z kim naprawdę piszesz.](/kontakt/)

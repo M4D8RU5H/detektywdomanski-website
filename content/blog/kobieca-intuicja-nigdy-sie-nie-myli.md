@@ -28,4 +28,4 @@ Nie ma urządzenia, które mierzy przeczucia. Ale doświadczenie pokazuje, że w
 ---
 
 Jeśli coś w Twoim związku zaczyna nie pasować – nie ignoruj tego. Zaufaj sobie. A jeśli chcesz dowiedzieć się prawdy, zrób to z pomocą profesjonalistów.  
-📞 [**DETEKTYW DOMAŃSKI sp. z o.o.** – pomagamy odkrywać prawdę z szacunkiem, dyskrecją i empatią.](/kontakt/)
+📞 [**DETEKTYW DOMANSKI sp. z o.o.** – pomagamy odkrywać prawdę z szacunkiem, dyskrecją i empatią.](/kontakt/)

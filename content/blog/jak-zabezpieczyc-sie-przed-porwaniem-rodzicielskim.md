@@ -36,5 +36,5 @@ Dzięki nowoczesnym narzędziom technicznym (lokalizacja, monitoring, analiza ko
 
 ---
 
-Nie ma nic ważniejszego niż bezpieczeństwo dziecka. Jeśli czujesz, że sytuacja wymyka się spod kontroli – porozmawiaj z nami. W **DETEKTYW DOMAŃSKI sp. z o.o.** doradzamy, jak chronić dziecko i reagować, zanim dojdzie do tragedii.  
+Nie ma nic ważniejszego niż bezpieczeństwo dziecka. Jeśli czujesz, że sytuacja wymyka się spod kontroli – porozmawiaj z nami. W **DETEKTYW DOMANSKI sp. z o.o.** doradzamy, jak chronić dziecko i reagować, zanim dojdzie do tragedii.  
 📞 [Zadzwoń – lepiej zapobiegać niż szukać.](/kontakt/)

@@ -29,4 +29,4 @@ Detektywi współpracują z markami, kancelariami i służbami celnymi. Naszym z
 
 Podróbki to nie drobnostka – to oszustwo, które szkodzi firmom, pracownikom i klientom.
 
-📞 [**DETEKTYW DOMAŃSKI sp. z o.o.** – tropimy fałszywki, zanim trafią w niepowołane ręce.](/kontakt/)
+📞 [**DETEKTYW DOMANSKI sp. z o.o.** – tropimy fałszywki, zanim trafią w niepowołane ręce.](/kontakt/)

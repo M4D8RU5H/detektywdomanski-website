@@ -35,4 +35,4 @@ Zgromadzone dowody przekazujemy pracodawcy, który może podjąć dalsze kroki:
 
 Lewe L4 to nie drobiazg – to forma oszustwa, która szkodzi firmie i zespołowi. Jeśli podejrzewasz nadużycia, nie działaj na oślep. 
 
-📞 [**DETEKTYW DOMAŃSKI sp. z o.o.** – sprawdzimy, zanim zaufanie stanie się stratą.](/kontakt/)
+📞 [**DETEKTYW DOMANSKI sp. z o.o.** – sprawdzimy, zanim zaufanie stanie się stratą.](/kontakt/)

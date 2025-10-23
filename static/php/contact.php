@@ -9,8 +9,8 @@ require __DIR__ . '/PHPMailer/src/PHPMailer.php';
 require __DIR__ . '/PHPMailer/src/SMTP.php';
 
 $email = 'website.detektywdomanski@gmail.com';
-$password = ''; //TODO: Add password
-$destEmail = 'getkrzysiek200@gmail.com'; //TODO: Change email
+$password = 'feme xofb tzwl npbl'; //TODO: Add password
+$destEmail = 'website.detektywdomanski@gmail.com'; //TODO: Change email
 
 // Pobieramy dane z POST
 $userName  = trim($_POST['name'] ?? '');

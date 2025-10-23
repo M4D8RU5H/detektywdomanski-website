@@ -33,6 +33,13 @@
   font-size: clamp(24px, 2vw, 20px);
 }
 
+.collectors-service-section h2 {
+  color: var(--gold);
+  margin: 0;
+  margin-top: 20px;
+  font-size: clamp(24px, 2vw, 20px);
+}
+
 .business-service-section .service-icon {
   background: var(--avocado-light);
 }
